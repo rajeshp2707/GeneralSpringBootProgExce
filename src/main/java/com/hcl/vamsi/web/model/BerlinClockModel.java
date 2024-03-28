@@ -3,7 +3,10 @@ package com.hcl.vamsi.web.model;
  * This is the model to set berlin clock parameters.
  * @author Vamsi.Kallam
  *
- */
+ */import java.file.IO;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 public class BerlinClockModel {
 	/**
 	 * private Params for Berlinclock 
