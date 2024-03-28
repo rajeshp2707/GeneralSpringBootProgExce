@@ -35,4 +35,8 @@ public class BerlinClock {
 		bc.setSecs(date.getSeconds());
 		return bc;
 	}
+	public string clockver()
+	{
+		return 1;
+	}
 }
