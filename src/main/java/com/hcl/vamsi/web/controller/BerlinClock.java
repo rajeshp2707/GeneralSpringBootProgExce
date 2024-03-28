@@ -38,6 +38,5 @@ public class BerlinClock {
 	}
 	public string clockver()
 	{
-		return 1;
 	}
 }
