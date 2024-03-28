@@ -33,6 +33,7 @@ public class BerlinClock {
 		bc.setFivemins(date.getMinutes()/5);
 		bc.setMins(date.getMinutes()%5);
 		bc.setSecs(date.getSeconds());
+		 clockver();
 		return bc;
 	}
 	public string clockver()
